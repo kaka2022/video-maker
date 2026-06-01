@@ -1,0 +1,50 @@
+[api]
+# 小米 MiMo API（用于 AI 文案生成 + TTS 语音合成）
+# 申请地址: https://mimo.xiaomi.com
+xiaomi_api_key = "YOUR_API_KEY_HERE"
+xiaomi_base_url = "https://token-plan-cn.xiaomimimo.com/v1"
+llm_model = "mimo-v2.5-pro"
+tts_model = "mimo-v2.5-tts"
+tts_voice = "mimo_default"
+timeout = 120
+max_retries = 3
+retry_delay = 2
+
+[pexels]
+# Pexels 素材视频 API（可选，用于自动下载匹配视频）
+# 申请地址: https://www.pexels.com/api/
+api_key = "YOUR_PEXELS_API_KEY_HERE"
+download_dir = "素材/pexels"
+count_per_keyword = 2
+orientation = "portrait"
+min_duration = 5
+max_duration = 30
+
+[video]
+width = 1080
+height = 1920
+fps = 30
+img_duration = 4
+transition_duration = 0.5
+subtitle_style = 8
+encode_preset = "fast"
+crf = 23
+use_video_clips = true
+clip_duration = 4
+
+[audio]
+bgm_volume = 0.12
+voice_volume = 1.0
+silence_between = 0.15
+tts_engine = "mimo_tts"
+edge_tts_voice = "zh-CN-XiaoxiaoNeural"
+bgm_auto_match = true
+music_dir = "音乐"
+
+[batch]
+max_workers = 4
+output_dir = "输出"
+temp_dir = ""
+
+[tts]
+concurrency = 5

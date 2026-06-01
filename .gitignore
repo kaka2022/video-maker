@@ -1,0 +1,40 @@
+# 输出文件
+输出/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 工作记录
+.workbuddy/
+
+# 配置文件（含密钥，使用 config.toml.example 作为模板）
+config.toml
+
+# 环境变量
+.env
+.env.*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 虚拟环境
+venv/
+.venv/
+
+# 临时文件
+*.tmp
+*.log
+
+# 下载的素材（体积大，用户自行准备）
+素材/pexels/
+.workbuddy/
