@@ -1,0 +1,15 @@
+[
+  {
+    "topic": "周末特惠",
+    "template": "templates/example.yaml",
+    "images": "素材/"
+  },
+  {
+    "topic": "新品上市",
+    "template": "templates/example.yaml"
+  },
+  {
+    "topic": "会员福利",
+    "template": "templates/example.yaml"
+  }
+]

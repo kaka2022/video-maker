@@ -1,0 +1,54 @@
+# 团购视频生成器配置示例
+
+[api]
+# 小米 MiMo API（用于 AI 文案 + TTS）
+xiaomi_api_key = "YOUR_API_KEY"
+xiaomi_base_url = "https://token-plan-cn.xiaomimimo.com/v1"
+llm_model = "mimo-v2.5-pro"
+tts_model = "mimo-v2.5-tts"
+tts_voice = "mimo_default"
+timeout = 120
+max_retries = 3
+retry_delay = 2
+
+[pexels]
+# Pexels 素材 API（可选，用于自动下载视频）
+api_key = "YOUR_PEXELS_KEY"
+download_dir = "素材/pexels"
+count_per_keyword = 2
+orientation = "portrait"
+min_duration = 5
+max_duration = 30
+
+[video]
+# 视频参数
+width = 1080
+height = 1920
+fps = 30
+img_duration = 4
+transition_duration = 0.5
+subtitle_style = 8
+encode_preset = "fast"
+crf = 23
+use_video_clips = true
+clip_duration = 4
+
+[audio]
+# 音频参数
+bgm_volume = 0.12
+voice_volume = 1.0
+silence_between = 0.15
+tts_engine = "edge_tts"
+edge_tts_voice = "zh-CN-XiaoxiaoNeural"
+bgm_auto_match = true
+music_dir = "音乐"
+
+[batch]
+# 批量参数
+max_workers = 4
+output_dir = "输出"
+temp_dir = ""
+
+[tts]
+# TTS 参数
+concurrency = 5

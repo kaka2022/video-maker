@@ -1,0 +1,31 @@
+# 商家模板示例
+merchant:
+  name: "你的店铺名称"
+  full_name: "你的店铺全称"
+  address: "你的店铺地址"
+  phone: "你的联系电话"
+  contact: "联系人姓名"
+  hours: "10:00-22:00"
+
+regions:
+  - "你的城市"
+  - "你的区域"
+
+services:
+  服务1:
+    - name: "基础服务"
+      price: 100
+      unit: "元/次"
+    - name: "高级服务"
+      price: 200
+      unit: "元/次"
+
+selling_points:
+  - "你的卖点1"
+  - "你的卖点2"
+  - "你的卖点3"
+
+hashtags:
+  - "#你的行业标签"
+  - "#你的地区标签"
+  - "#你的品牌标签"
