@@ -1,0 +1,29 @@
+# 团购视频生成器 - 依赖列表
+
+# 核心依赖
+edge-tts>=6.1.0          # TTS 语音合成（免费）
+pycapsule>=0.1.0         # 视频处理辅助
+requests>=2.28.0         # HTTP 客户端
+toml>=0.10.2             # TOML 配置解析
+pyyaml>=6.0              # YAML 配置解析
+httpx>=0.24.0            # 异步 HTTP 客户端
+pillow>=9.0.0            # 图片处理
+
+# 可选依赖（Web 界面）
+fastapi>=0.100.0         # Web 框架
+uvicorn>=0.23.0          # ASGI 服务器
+python-multipart>=0.0.6  # 文件上传支持
+
+# 可选依赖（AI 功能）
+openai>=1.0.0            # OpenAI API（可选）
+anthropic>=0.18.0        # Anthropic API（可选）
+
+# 开发依赖
+pytest>=7.0.0            # 测试框架
+pytest-cov>=4.0.0        # 测试覆盖率
+pytest-asyncio>=0.21.0   # 异步测试支持
+black>=23.0.0            # 代码格式化
+flake8>=6.0.0            # 代码检查
+mypy>=1.0.0              # 类型检查
+isort>=5.12.0            # import 排序
+pre-commit>=3.0.0        # Git hooks
