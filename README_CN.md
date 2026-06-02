@@ -9,7 +9,7 @@
 [![Platform](https://img.shields.io/badge/平台-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)]()
 
 ---
-中文 ｜ English
+[中文](https://github.com/kaka2022/video-maker/edit/main/README.md) ｜ [English](https://github.com/kaka2022/video-maker/edit/main/README_EN.md)
 
 ## 🎯 项目概述
 
