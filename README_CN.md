@@ -9,6 +9,7 @@
 [![Platform](https://img.shields.io/badge/平台-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)]()
 
 ---
+中文 ｜ English
 
 ## 🎯 项目概述
 
